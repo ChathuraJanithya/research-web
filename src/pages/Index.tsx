@@ -34,16 +34,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Fixed Progress Bar */}
-      {/*   <motion.div
-        className="fixed top-0 left-0 right-0 z-50 h-1"
-        style={{
-          background: "linear-gradient(to right, #1EAEDB, #8B5CF6)",
-          scaleX: scrollYProgress,
-          transformOrigin: "0%",
-        }}
-      /> */}
-
       {/* Navbar */}
       <Navbar />
 
