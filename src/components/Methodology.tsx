@@ -83,7 +83,6 @@ const systemComponents = [
   "Internal and external damage detection and claim estimation",
   "Fraud detection and validation",
   "Customer sentiment analysis and feedback classification",
-  "Water resource identification",
   "Incident profiling and intelligent policy mapping",
 ];
 
