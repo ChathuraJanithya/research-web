@@ -176,7 +176,7 @@ export function Team() {
               Project Supervisors
             </motion.h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-5   gap-4 w-full max-w-6xl items-center ">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mx-auto max-w-4xl items-center ">
               {supervisors.map((supervisor, index) => (
                 <TeamMemberCard
                   key={supervisor.id}
