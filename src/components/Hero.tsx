@@ -48,27 +48,6 @@ export function Hero() {
             Our interdisciplinary team is pioneering breakthrough solutions at
             the intersection of technology and scientific discovery.
           </motion.p>
-
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            <Button
-              size="lg"
-              className="bg-research-navy hover:bg-research-navy/90"
-            >
-              Learn More
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-research-blue text-research-blue hover:bg-research-blue/10"
-            >
-              View Research
-            </Button>
-          </motion.div>
         </div>
       </div>
     </section>
