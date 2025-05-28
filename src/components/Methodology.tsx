@@ -80,11 +80,11 @@ const methodologyPhases = [
 ];
 
 const systemComponents = [
-  "WCLWD and its symptom severity identification",
-  "CCI Identification and progression level determination",
-  "Deficiency Identification (Mg deficiency and Leaf Scorch Decline)",
+  "Internal and external damage detection and claim estimation",
+  "Fraud detection and validation",
+  "Customer sentiment analysis and feedback classification",
   "Water resource identification",
-  "Crowdsourcing for information sharing",
+  "Incident profiling and intelligent policy mapping",
 ];
 
 export function Methodology() {
@@ -129,8 +129,8 @@ export function Methodology() {
               </div>
 
               <p className="text-gray-600 leading-relaxed">
-                The proposed pest and disease surveillance system consists of 4
-                main components:
+                The proposed InsureGeini vehicle insurance system consists of
+                four main components:
               </p>
 
               <div className="space-y-3">
@@ -153,14 +153,35 @@ export function Methodology() {
 
               <div className="bg-gradient-to-r from-research-blue/5 to-research-accent/5 p-6 rounded-xl border-l-4 border-research-blue">
                 <p className="text-gray-700 leading-relaxed">
-                  The system provides a smart approach for stakeholders,
-                  researchers, and Coconut Development Officers (CDOs) to detect
-                  coconut diseases and pest infestations. Registered users can
-                  capture or upload suspicious images, which are processed by
-                  DCNN models on AWS backend servers. The system includes
-                  real-time location tracking via Google Maps and automatic
-                  notifications to farmers and stakeholders at risk of
-                  infection.
+                  This figure illustrates the overall system architecture
+                  designed to provide an intelligent, automated solution for
+                  insurers, claims adjusters, and policyholders. Registered
+                  users can upload images of the vehicle along with audio or
+                  text incident reports via mobile or web applications. These
+                  inputs are sent to the backend, deployed on cloud
+                  infrastructure, where specialized deep learning models process
+                  the data. For damage detection, vehicle images are analyzed
+                  using CNN and Masked R-CNN models to identify multiple damaged
+                  parts, classify damage types, and assess severity. Sensor data
+                  from onboard vehicle diagnostics is integrated to detect
+                  internal damage not visible externally. For fraud detection,
+                  license plates and VIN numbers are extracted and verified via
+                  OCR, while facial recognition models validate the driver’s
+                  identity against official documents. Historical damage images
+                  and sensor logs are cross-referenced to detect inconsistencies
+                  and potential fraud. Customer feedback and sentiment are
+                  analyzed with Naïve Bayes classifiers enhanced by TF-IDF
+                  feature extraction, tailored to classify sentiments linked to
+                  claim settlement, policy issues, and service quality. Incident
+                  reports submitted as audio are transcribed using Automatic
+                  Speech Recognition models like OpenAI Whisper. Summarization
+                  and policy mapping are performed using Large Language Models
+                  (LLMs) combined with Retrieval-Augmented Generation (RAG)
+                  techniques to match claims with relevant policy clauses
+                  accurately. The system updates real-time dashboards and
+                  notifies insurers and customers of claim statuses and fraud
+                  alerts. Geographic mapping visualizes claim distributions and
+                  fraud hotspots to assist risk management.
                 </p>
               </div>
             </div>
