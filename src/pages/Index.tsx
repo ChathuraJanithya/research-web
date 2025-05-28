@@ -12,7 +12,6 @@ import { ImageCarousel } from "@/components/ImageCarousel";
 import { MarqueeSection } from "@/components/MarqueeSection";
 import { ProjectScope } from "@/components/ProjectScope";
 import { KeyTechnologies } from "@/components/KeyTechnologies";
-import { LiteratureReview } from "@/components/LiteratureReview";
 import { ResearchGap } from "@/components/ResearchGap";
 import { ProposedSolution } from "@/components/ProposedSolution";
 import { ResearchObjectives } from "@/components/ResearchObjectives";
@@ -85,7 +84,7 @@ const Index = () => {
       <Features />
 
       {/* Image Carousel */}
-      <ImageCarousel />
+      {/*  <ImageCarousel /> */}
 
       {/* Marquee Section */}
       <MarqueeSection />

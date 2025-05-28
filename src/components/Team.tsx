@@ -14,19 +14,27 @@ interface TeamMember {
 const supervisors: TeamMember[] = [
   {
     id: 1,
-    name: "Rathnayake M.R.T.N",
-    role: "IT21253294",
-    image: "/team/naveen.jpeg",
-    bio: "Expert in computational research with over 15 years of experience in the field.",
+    name: "Wishalya Thissera​",
+    role: "Supervisor",
+    image: "https://static.sliit.lk/profile/wishalyat-1671092630.JPG",
+    bio: "Supervisor",
     initials: "SJ",
   },
   {
     id: 2,
-    name: "Prof. Michael Chen",
-    role: "Scientific Advisor",
+    name: "Ms. Thamali Dassanayake",
+    role: "Co Supervisor",
     image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80",
-    bio: "Pioneer in quantum computing research with multiple published papers.",
+      "https://www.sliit.lk/profile/uploads/scan_image_1510200789-Ms__Thamali.jpg",
+    bio: "Co Supervisor​",
+    initials: "MC",
+  },
+  {
+    id: 2,
+    name: "Samitha Vidhanaarachchi",
+    role: "External Supervisor",
+    image: "/other/samitha.png",
+    bio: "External Supervisor​​",
     initials: "MC",
   },
 ];

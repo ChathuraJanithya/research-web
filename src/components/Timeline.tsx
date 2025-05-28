@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 
 const timelineEvents = [
   {
-    date: "March 2021",
+    date: "July 2024",
     title: "Project Proposal",
     description:
       "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
@@ -26,7 +26,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "June 2021",
+    date: "December 2024",
     title: "Progress Presentation I",
     description:
       "Progress Presentation I reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.",
@@ -36,7 +36,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "July 2021",
+    date: "March 2025",
     title: "Research Paper",
     description:
       "Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge.",
@@ -46,7 +46,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "September 2021",
+    date: "March 2025",
     title: "Progress Presentation II",
     description:
       "Progress Presentation II reviews the 90% completion status demonstration of the project. Along with a Poster presentation which describes the project as a whole.",
@@ -56,7 +56,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "October 2021",
+    date: "May 2025",
     title: "Website Assessment",
     description:
       "The Website helps to promote our research project and reveals all details related to the project.",
@@ -66,7 +66,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "November 2021",
+    date: "May 2025",
     title: "Logbook",
     description:
       "Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.",
@@ -76,7 +76,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "November 2021",
+    date: "April 2025",
     title: "Final Report",
     description:
       "Final Report evaluates the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.",
@@ -86,7 +86,7 @@ const timelineEvents = [
     status: "completed",
   },
   {
-    date: "November 2021",
+    date: "May 2025",
     title: "Final Presentation & Viva",
     description:
       "Viva is held individually to assess each member's contribution to the project.",
