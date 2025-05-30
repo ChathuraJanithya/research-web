@@ -8,7 +8,6 @@ import { ProductUsers } from "@/components/ProductUsers";
 import { Benefits } from "@/components/Benefits";
 import { Features } from "@/components/Features";
 import { Footer } from "@/components/Footer";
-import { ImageCarousel } from "@/components/ImageCarousel";
 import { MarqueeSection } from "@/components/MarqueeSection";
 import { ProjectScope } from "@/components/ProjectScope";
 import { KeyTechnologies } from "@/components/KeyTechnologies";
@@ -19,6 +18,7 @@ import { Methodology } from "@/components/Methodology";
 import { Timeline } from "@/components/Timeline";
 import { Documents } from "@/components/Documents";
 import { ContactForm } from "@/components/ContactForm";
+import { MainComponents } from "@/components/MainComponents";
 
 const Index = () => {
   const { scrollYProgress } = useScroll();
@@ -39,6 +39,8 @@ const Index = () => {
 
       {/* Hero Section */}
       <Hero />
+
+      <MainComponents />
 
       {/* Project Scope Section */}
       <ProjectScope />
