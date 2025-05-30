@@ -14,11 +14,11 @@ interface TeamMember {
 const supervisors: TeamMember[] = [
   {
     id: 1,
-    name: "Wishalya Thissera​",
+    name: "Ms. Wishalya Tissera​",
     role: "Supervisor",
     image: "https://static.sliit.lk/profile/wishalyat-1671092630.JPG",
     bio: "Supervisor",
-    initials: "SJ",
+    initials: "",
   },
   {
     id: 2,
@@ -27,15 +27,15 @@ const supervisors: TeamMember[] = [
     image:
       "https://www.sliit.lk/profile/uploads/scan_image_1510200789-Ms__Thamali.jpg",
     bio: "Co Supervisor​",
-    initials: "MC",
+    initials: "",
   },
   {
     id: 2,
-    name: "Samitha Vidhanaarachchi",
+    name: "Mr. Samitha Vidhanaarachchi",
     role: "External Supervisor",
     image: "/other/samitha.png",
     bio: "External Supervisor​​",
-    initials: "MC",
+    initials: "",
   },
 ];
 
